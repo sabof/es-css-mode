@@ -1,4 +1,5 @@
 (require 'css-mode)
+(require 'es-lib)
 (require 'flymake)
 
 ;; For es-sass-mode
@@ -190,4 +191,4 @@
   (set (make-local-variable 'es-aai-indent-function)
        'es-aai-indent-defun) )
 
-(provide 'es-lib-css-mode)
+(provide 'es-css-mode)
