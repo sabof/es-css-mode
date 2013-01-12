@@ -18,6 +18,7 @@
     (modify-syntax-entry ?\n ">" st)
     st))
 
+;;;###autoload
 (define-derived-mode es-scss-mode es-css-mode
   "ES SCSS Mode " "Mode for scss"
   (set (make-local-variable 'es-css-comment-line-p-function)
