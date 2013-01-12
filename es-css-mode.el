@@ -194,13 +194,13 @@
                   (es-line-matches-p "^[^}[:space:]/]")))
       (forward-line -1))))
 
-(defun es-css-inside-block ()
+(defun es-css-inside-block-p ()
   (plusp (nth 0 (syntax-ppss))))
 
 (defun* es-css-end-of-defun (&optional (arg 1))
   (interactive)
   (ignore-errors
-    (if (es-css-inside-block)
+    (if (es-css-inside-block-p)
         (es-css-beginning-of-defun))
     (progn
       (re-search-forward "{" nil t arg)
