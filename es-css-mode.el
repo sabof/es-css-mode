@@ -2,6 +2,7 @@
 ;;; Version: 0.1
 ;;; Author: sabof
 ;;; URL: https://github.com/sabof/es-css-mode
+;;; Package-Requires: ((es-lib "0.1"))
 
 ;;; Commentary:
 
