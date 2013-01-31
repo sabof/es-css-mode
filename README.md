@@ -1,7 +1,4 @@
 # es-css-mode
 
-CSS major mode featuring correct indentation for modern css, and other minor
-improvements
-
-To the best of my knowledge, it also works for SASS (.scss) files. If it
-doesn't, plese report it as a bug.
+Contains css-mode.el, which is a patched version of current (31 Jan 2013)
+css-mode.el, featuring improved indentation and navigation.
